@@ -51,6 +51,8 @@ function limpar()
     carrinho.innerHTML = `<section class="carrinho__produtos__produto">
           <span class="texto-azul"></span>Sem nenhum item ainda...<span class="texto-azul"></span>
         </section>`;
+    produtos = {};
+
     
 
 }
