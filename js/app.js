@@ -37,6 +37,8 @@ function adicionar()
           <span class="texto-azul">${produtos[produto].quantidade}x</span> <span> ${produto} </span> <span class = "texto-azul"> R$${produtos[produto].valor} </span>
          </section>`;
     }
+    document.getElementById("quantidade").value = "";
+
 
     
 }
@@ -52,6 +54,7 @@ function limpar()
           <span class="texto-azul"></span>Sem nenhum item ainda...<span class="texto-azul"></span>
         </section>`;
     produtos = {};
+    document.getElementById("quantidade").value = "";
 
     
 
